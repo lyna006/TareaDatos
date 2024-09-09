@@ -1,0 +1,15 @@
+public interface IList
+{
+    void InsertInOrder(int value);
+    int DeleteFirst();
+    int DeleteLast();
+    bool DeleteValue(int value);
+    int GetMiddle();
+    void MergeSortedLists(IList listA, IList listB, SortDirection direction);
+}
+
+public enum SortDirection
+{
+    Asc,
+    Desc
+}
