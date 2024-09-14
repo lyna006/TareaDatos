@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\ListaDoble\ListaDoble.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
+		<PackageReference Include="MSTest.TestFramework" Version="3.6.0" />
+		<PackageReference Include="MSTest.TestAdapter" Version="3.6.0" />
+	</ItemGroup>
+
+</Project>
